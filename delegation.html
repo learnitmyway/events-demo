@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+  </head>
+  <body style="height: 100vh; width: 100vw; background-color: papayawhip;">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+
+    <script>
+      document.querySelector('body').addEventListener('click', () => {
+        if (!event.target.matches('button')) return
+        console.log(event.target)
+      })
+    </script>
+  </body>
+</html>
