@@ -2,4 +2,8 @@
 
 ## capturing example
 
-- `open capturing.html` and view console
+Demonstrates the capturing and bubbling phases
+
+- `open capturing.html`
+- click button
+- view console
